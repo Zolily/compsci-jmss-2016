@@ -1,11 +1,12 @@
 # write a program that reads in 10 numbers, then prints the sum of those
+sum = []
+sum = int()
+for i in range (10):
+    response = input("Please type a number")
 
-total = 0
-for i in range(3):
-    num = float(input("please enter a number"))
+    sum = int(response) + sum
 
-    total = total + num
+print(sum)
 
-print (total)
 
 
